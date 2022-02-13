@@ -1,0 +1,194 @@
+:root {
+    /*color*/
+    --main-color: #757575;
+    --secondary-color: #212121;
+    --select-color: #2196f3;
+    --section-team-background: #f5f4fa;
+    --hero-footer-background: #2f303a;
+  }
+  .list {
+    list-style: none;
+  }
+  .link {
+    text-decoration: none;
+  }
+  body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+  }
+  
+  /*logo-header*/
+  .link-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+  }
+  .item-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  /*nav-header*/
+  .nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+  }
+  .nav-list .nav-link.current {
+    color: var(--select-color);
+  }
+  .nav-list .nav-link:hover,
+  .nav-list .nav-link:focus,
+  .contacts-list .contacts-link:hover,
+  .contacts-list .contacts-link:focus,
+  .address-item .address-link:hover,
+  .address-item .address-link:focus,
+  .address-item .footer-contacts:hover,
+  .address-item .footer-contacts:focus {
+    color: var(--select-color);
+  }
+  /*contacts-header*/
+  .contacts-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+  }
+  
+  /*hero*/
+  .hero {
+    background-color: var(--hero-footer-background);
+  }
+  .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .hero-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background-color: var(--select-color);
+  }
+  /*section-adge*/
+  .invisible-title {
+    visibility: hidden;
+  }
+  .adge-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+  }
+  .adge-text {
+  }
+  /*section-work*/
+  .work-title,
+  .team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+  }
+  
+  /*sectionteam*/
+  .team {
+    background-color: var(--section-team-background);
+  }
+  .team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+  }
+  .team-text {
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+  }
+  /*footer*/
+  .footer {
+    background-color: var(--hero-footer-background);
+  }
+  .footer-item-logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  .address-link,
+  .footer-contacts {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  .address-link {
+    color: #ffffff;
+  }
+  .footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  /*buttons*/
+  
+  .filter-btn {
+    background: #f5f4fa;
+    border-radius: 4px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+  }
+  .filter-item .filter-btn:hover,
+  .filter-item .filter-btn:focus {
+    color: #ffffff;
+    background-color: var(--select-color);
+    cursor: pointer;
+  }
+  /*gallery-project*/
+  .gallery-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondary-color);
+  }
+  .gallery-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+  }
